@@ -1,0 +1,41 @@
+/* =====================================
+   PORTFOLIO MAËLYS - VARIABLES
+   Thème : Dark Tech / Green
+===================================== */
+
+:root {
+  /* Couleurs principales */
+  --bg-primary: #101411;
+  --bg-secondary: #19231c;
+  --bg-card: #202b23;
+
+  /* Vert */
+  --green-primary: #287a4b;
+  --green-accent: #45d483;
+  --green-light: #a5f3c5;
+
+  /* Textes */
+  --text-primary: #e7ede8;
+  --text-secondary: #aab6ac;
+  --text-muted: #718078;
+
+  /* Bordures et effets */
+  --border-color: rgba(165, 243, 197, 0.12);
+  --shadow-green: 0 0 30px rgba(69, 212, 131, 0.12);
+
+  /* Typographie */
+  --font-main: "Space Grotesk", sans-serif;
+  --font-code: "JetBrains Mono", monospace;
+
+  /* Dimensions */
+  --container-width: 1200px;
+  --header-height: 80px;
+
+  /* Arrondis */
+  --radius-small: 8px;
+  --radius-medium: 16px;
+  --radius-large: 24px;
+
+  /* Transitions */
+  --transition: 0.3s ease;
+}
