@@ -8,34 +8,41 @@
 
     <meta
       name="description"
-      content="Portfolio de Maëlys Fomholtz, étudiante en BUT Réseaux et Télécommunications, parcours ROM."
+      content="Portfolio de Maëlys Fomholtz, étudiante en troisième année de BUT Réseaux et Télécommunications, parcours ROM."
     />
 
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <!-- NAVIGATION -->
+    <!-- ==============================
+         NAVIGATION
+    ============================== -->
+
     <header class="header">
       <nav class="navbar container">
-        <a href="index.html" class="logo"> M<span>.</span> </a>
+        <a href="index.html" class="logo"> MF<span>.</span> </a>
 
         <ul class="nav-links">
           <li><a href="#accueil">Accueil</a></li>
           <li><a href="#apropos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
           <li><a href="parcours/index.html">Mon parcours</a></li>
           <li><a href="projets/index.html">Mes projets</a></li>
           <li><a href="experiences/index.html">Expériences</a></li>
         </ul>
 
-        <a href="mailto:contact@example.com" class="contact-link">
+        <a href="mailto:maelys.fomholtz@gmail.com" class="contact-link">
           Me contacter ↗
         </a>
       </nav>
     </header>
 
     <main>
-      <!-- ACCUEIL -->
+      <!-- ==============================
+             ACCUEIL
+        ============================== -->
+
       <section class="hero container" id="accueil">
         <div class="hero-content">
           <p class="hero-label">
@@ -67,6 +74,8 @@
           </div>
         </div>
 
+        <!-- CARTE TERMINAL -->
+
         <div class="hero-visual">
           <div class="visual-card">
             <p class="code-label">SYSTEM.INIT()</p>
@@ -75,11 +84,15 @@
               <p>
                 <span class="terminal-green">maelys@portfolio</span>:~$ whoami
               </p>
+
               <p>Etudiante en BUT R&T</p>
+
               <p>
                 <span class="terminal-green">maelys@portfolio</span>:~$ skills
               </p>
+
               <p>Networking | Systems | IT</p>
+
               <p>
                 <span class="terminal-green">maelys@portfolio</span>:~$
                 <span class="cursor">_</span>
@@ -95,71 +108,262 @@
         </div>
       </section>
 
-      <!-- PRESENTATION -->
+      <!-- ==============================
+             À PROPOS
+        ============================== -->
+
       <section class="about-section" id="apropos">
         <div class="container about-content">
-          <div>
-            <p class="section-label">01 / À PROPOS</p>
-            <h2>Qui suis-je<span> ?</span></h2>
+          <!-- PHOTO DE PROFIL -->
+
+          <div class="about-photo">
+            <img
+              src="images/profil/maelys.JPG"
+              alt="Portrait de Maëlys Fomholtz"
+            />
           </div>
 
-          <div class="about-text">
-            <p>
-              Passionnée par les technologies et les environnements
-              informatiques, je développe mes compétences dans les domaines des
-              réseaux, des systèmes et des infrastructures.
-            </p>
+          <!-- PRÉSENTATION -->
 
-            <p>
-              Mon parcours en Réseaux & Télécommunications me permet d'allier
-              théorie, pratique et expérience professionnelle grâce à mon
-              alternance chez CIRTEL.
-            </p>
+          <div class="about-information">
+            <p class="section-label">01 / À PROPOS</p>
+
+            <h2>
+              Un parcours technique,<br />
+              une curiosité sans limite<span>.</span>
+            </h2>
+
+            <h3>Maëlys Fomholtz</h3>
+
+            <div class="about-text">
+              <p>
+                Passionnée par les technologies et les environnements
+                informatiques, je développe mes compétences dans les domaines
+                des réseaux, des systèmes et des infrastructures.
+              </p>
+
+              <p>
+                Actuellement en troisième année de BUT Réseaux &
+                Télécommunications à l'IUT de Colmar, parcours Réseaux
+                Opérateurs et Multimédia (ROM), je cherche constamment à
+                approfondir mes connaissances et à découvrir de nouvelles
+                technologies.
+              </p>
+
+              <p>
+                Mon alternance chez CIRTEL me permet de confronter mes
+                connaissances aux réalités du terrain, notamment à travers des
+                missions de support informatique, d'administration systèmes et
+                réseaux et de déploiement de solutions IT.
+              </p>
+            </div>
+
+            <a href="parcours/index.html" class="card-link">
+              En savoir plus sur mon parcours ↗
+            </a>
           </div>
         </div>
       </section>
 
-      <!-- PARCOURS -->
+      <!-- ==============================
+             COMPÉTENCES
+        ============================== -->
+
+      <section class="skills-section" id="competences">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">02 / SAVOIR-FAIRE</p>
+
+            <h2>Mes compétences<span>.</span></h2>
+
+            <p>
+              Des compétences développées au fil de ma formation, de mes projets
+              techniques et de mon expérience professionnelle.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <!-- RÉSEAUX -->
+
+            <article class="skill-card">
+              <span class="card-number">01</span>
+
+              <h3>Réseaux & Télécommunications</h3>
+
+              <p>
+                Conception, configuration et dépannage d'infrastructures réseau.
+              </p>
+
+              <div class="skill-tags">
+                <span>TCP/IP</span>
+                <span>VLAN</span>
+                <span>OSPF</span>
+                <span>DNS</span>
+                <span>DHCP</span>
+                <span>VPN</span>
+                <span>Cisco</span>
+                <span>Wireshark</span>
+              </div>
+            </article>
+
+            <!-- SYSTÈMES -->
+
+            <article class="skill-card">
+              <span class="card-number">02</span>
+
+              <h3>Systèmes & Administration</h3>
+
+              <p>
+                Installation, configuration et administration de systèmes et de
+                services informatiques.
+              </p>
+
+              <div class="skill-tags">
+                <span>Debian</span>
+                <span>Windows</span>
+                <span>Docker</span>
+                <span>Apache</span>
+                <span>MariaDB</span>
+                <span>Bind9</span>
+                <span>Microsoft 365</span>
+              </div>
+            </article>
+
+            <!-- DÉVELOPPEMENT -->
+
+            <article class="skill-card">
+              <span class="card-number">03</span>
+
+              <h3>Développement</h3>
+
+              <p>
+                Création de scripts, développement web et manipulation de bases
+                de données.
+              </p>
+
+              <div class="skill-tags">
+                <span>Python</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Django</span>
+                <span>SQL</span>
+              </div>
+            </article>
+
+            <!-- VIRTUALISATION -->
+
+            <article class="skill-card">
+              <span class="card-number">04</span>
+
+              <h3>Virtualisation & Automatisation</h3>
+
+              <p>
+                Création d'environnements virtualisés, déploiement de services
+                et automatisation.
+              </p>
+
+              <div class="skill-tags">
+                <span>GNS3</span>
+                <span>VirtualBox</span>
+                <span>Ansible</span>
+                <span>Docker Compose</span>
+                <span>Raspberry Pi</span>
+                <span>Node-RED</span>
+                <span>MQTT</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==============================
+             PARCOURS
+        ============================== -->
+
       <section class="container journey-section">
-        <p class="section-label">02 / FORMATION</p>
+        <p class="section-label">03 / FORMATION</p>
 
         <h2>Trois années pour <span>évoluer.</span></h2>
 
         <div class="journey-grid">
           <a href="parcours/premiere-annee.html" class="journey-card">
             <span class="card-number">01</span>
+
             <h3>Première année</h3>
+
             <p>
-              Découverte des fondamentaux des réseaux et télécommunications.
+              Découverte des fondamentaux des réseaux, des systèmes et des
+              télécommunications.
             </p>
-            <span class="card-link">Explorer ↗</span>
+
+            <span class="card-link"> Explorer ↗ </span>
           </a>
 
           <a href="parcours/deuxieme-annee.html" class="journey-card">
             <span class="card-number">02</span>
+
             <h3>Deuxième année</h3>
+
             <p>
-              Approfondissement des connaissances et développement technique.
+              Approfondissement des connaissances, administration réseau et
+              déploiement de services.
             </p>
-            <span class="card-link">Explorer ↗</span>
+
+            <span class="card-link"> Explorer ↗ </span>
           </a>
 
           <a href="parcours/troisieme-annee.html" class="journey-card">
             <span class="card-number">03</span>
+
             <h3>Troisième année</h3>
-            <p>Parcours ROM, spécialisation et expérience en alternance.</p>
-            <span class="card-link">Explorer ↗</span>
+
+            <p>
+              Parcours ROM, spécialisation technique et expérience
+              professionnelle en alternance.
+            </p>
+
+            <span class="card-link"> Explorer ↗ </span>
           </a>
         </div>
       </section>
+
+      <!-- ==============================
+             PROJETS
+        ============================== -->
+
+      <section class="container journey-section">
+        <p class="section-label">04 / RÉALISATIONS</p>
+
+        <h2>Des projets pour <span>apprendre et construire.</span></h2>
+
+        <div class="text-content">
+          <p>
+            Au cours de ma formation, j'ai eu l'occasion de travailler sur
+            différents projets mêlant réseaux, systèmes, développement et
+            nouvelles technologies.
+          </p>
+        </div>
+
+        <a href="projets/index.html" class="btn btn-primary">
+          Découvrir mes projets ↗
+        </a>
+      </section>
     </main>
+
+    <!-- ==============================
+         FOOTER
+    ============================== -->
 
     <footer class="footer">
       <div class="container">
         <p>© 2026 Maëlys Fomholtz — Portfolio</p>
+
         <p>Conçu avec passion et quelques lignes de code.</p>
       </div>
     </footer>
+
+    <!-- JAVASCRIPT -->
 
     <script src="js/main.js"></script>
   </body>

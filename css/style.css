@@ -771,3 +771,53 @@ body {
     text-align: center;
   }
 }
+
+/* CORRECTION DES PAGES INTERNES */
+
+.page-hero,
+.content-section,
+.year-navigation {
+  width: min(90%, var(--container-width));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-hero {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.content-section {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.text-content {
+  max-width: 850px;
+}
+
+.skills-grid,
+.project-grid {
+  width: 100%;
+  min-width: 0;
+}
+
+.skill-card,
+.project-card {
+  min-width: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .page-hero {
+    padding-top: 65px;
+  }
+
+  .content-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

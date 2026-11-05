@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Présentation d'un projet de conception et de configuration d'une infrastructure réseau sous GNS3."
+    />
+    <title>Infrastructure réseau | Portfolio de Maëlys Fomholtz</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <header class="navbar">
+      <a href="../index.html" class="logo">MF<span>.</span></a>
+
+      <nav class="nav-links">
+        <a href="../index.html">Accueil</a>
+        <a href="../parcours/index.html">Mon parcours</a>
+        <a href="index.html">Mes projets</a>
+        <a href="../experiences/index.html">Expériences</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- INTRODUCTION -->
+      <section class="page-hero">
+        <p class="section-label">MES PROJETS / RÉSEAUX</p>
+
+        <h1>Conception d'une <span>infrastructure réseau</span></h1>
+
+        <p>
+          Création et configuration d'une maquette réseau virtualisée avec GNS3,
+          intégrant plusieurs VLAN, des services informatiques et du routage
+          multicast.
+        </p>
+
+        <span class="year-tag">GNS3</span>
+        <span class="year-tag">Cisco</span>
+        <span class="year-tag">Réseaux</span>
+      </section>
+
+      <!-- CONTEXTE -->
+      <section class="content-section">
+        <div class="section-heading">
+          <p class="section-label">01 / CONTEXTE</p>
+          <h2>Présentation du projet</h2>
+        </div>
+
+        <div class="text-content">
+          <p>
+            Dans le cadre de ma formation en BUT Réseaux et Télécommunications,
+            j'ai travaillé sur la mise en place d'une maquette réseau à l'aide
+            du logiciel GNS3.
+          </p>
+
+          <p>
+            L'objectif était de concevoir une infrastructure permettant de faire
+            communiquer différents équipements et services au sein d'une
+            architecture segmentée.
+          </p>
+
+          <p>
+            Cette maquette m'a permis de mettre en pratique plusieurs notions
+            d'administration réseau, notamment la segmentation en VLAN, le
+            routage dynamique et la diffusion de flux multicast.
+          </p>
+        </div>
+      </section>
+
+      <!-- ARCHITECTURE -->
+      <section class="content-section">
+        <div class="section-heading">
+          <p class="section-label">02 / ARCHITECTURE</p>
+          <h2>Organisation du réseau</h2>
+        </div>
+
+        <div class="text-content">
+          <p>
+            L'infrastructure repose sur des équipements réseau virtualisés dans
+            GNS3 et sur une machine virtuelle hébergeant plusieurs services.
+          </p>
+
+          <p>
+            Le réseau est organisé en plusieurs VLAN afin de séparer les usages
+            et de structurer les communications.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="card-number">VLAN 10</span>
+            <h3>Voix et vidéo</h3>
+            <p>
+              Réseau dédié aux usages multimédias, notamment à la diffusion de
+              flux vidéo.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <span class="card-number">VLAN 20</span>
+            <h3>Data</h3>
+            <p>
+              Réseau destiné aux services informatiques et aux échanges de
+              données.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <span class="card-number">VLAN 99</span>
+            <h3>Administration</h3>
+            <p>
+              Réseau réservé à l'administration et à la gestion des équipements.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONFIGURATION -->
+      <section class="content-section">
+        <div class="section-heading">
+          <p class="section-label">03 / CONFIGURATION</p>
+          <h2>Les technologies mises en œuvre</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="card-number">01</span>
+            <h3>Segmentation réseau</h3>
+            <p>
+              Création de VLAN pour séparer les différents types de trafic et
+              organisation des liaisons entre les équipements.
+            </p>
+            <div class="skill-tags">
+              <span>VLAN</span>
+              <span>Trunk</span>
+              <span>Switching</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="card-number">02</span>
+            <h3>Routage dynamique</h3>
+            <p>
+              Utilisation d'OSPF pour permettre l'échange d'informations de
+              routage entre les équipements de l'infrastructure.
+            </p>
+            <div class="skill-tags">
+              <span>OSPF</span>
+              <span>Routage IP</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="card-number">03</span>
+            <h3>Routage multicast</h3>
+            <p>
+              Étude et configuration des mécanismes de diffusion multicast avec
+              IGMP et PIM en mode Sparse.
+            </p>
+            <div class="skill-tags">
+              <span>IGMP</span>
+              <span>PIM-SM</span>
+              <span>Multicast</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="card-number">04</span>
+            <h3>Services virtualisés</h3>
+            <p>
+              Intégration de services hébergés dans des conteneurs Docker au
+              sein de l'environnement de travail.
+            </p>
+            <div class="skill-tags">
+              <span>GNS3</span>
+              <span>Docker</span>
+              <span>Linux</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- MULTICAST -->
+      <section class="content-section">
+        <div class="section-heading">
+          <p class="section-label">04 / MULTIMÉDIA</p>
+          <h2>Diffusion d'un flux multicast</h2>
+        </div>
+
+        <div class="text-content">
+          <p>
+            Une partie du projet porte sur la diffusion d'un flux vidéo en
+            multicast. Contrairement à une transmission individuelle, le
+            multicast permet de distribuer un même flux à plusieurs clients
+            intéressés.
+          </p>
+
+          <p>
+            Le groupe multicast utilisé pour les essais est
+            <strong>239.10.10.10</strong>, sur le port <strong>5000</strong>.
+          </p>
+
+          <p>
+            La maquette s'appuie notamment sur IGMP pour la gestion des
+            abonnements des clients et sur PIM-SM pour le routage multicast. Un
+            point de rendez-vous (RP) est également prévu dans l'architecture.
+          </p>
+        </div>
+
+        <div class="skill-tags">
+          <span>239.10.10.10</span>
+          <span>UDP / 5000</span>
+          <span>IGMP</span>
+          <span>PIM-SM</span>
+          <span>Rendezvous Point</span>
+        </div>
+      </section>
+
+      <!-- BILAN -->
+      <section class="content-section">
+        <div class="section-heading">
+          <p class="section-label">05 / BILAN</p>
+          <h2>Compétences développées</h2>
+        </div>
+
+        <div class="text-content">
+          <p>
+            Ce projet m'a permis d'approfondir ma compréhension des
+            architectures réseau et de leurs interactions. J'ai notamment
+            travaillé sur la segmentation, le routage et les mécanismes de
+            diffusion multicast.
+          </p>
+
+          <p>
+            J'ai également appris à construire une maquette virtualisée, à
+            organiser les différents composants d'une infrastructure et à
+            analyser les configurations pour identifier les problèmes de
+            communication.
+          </p>
+        </div>
+      </section>
+
+      <!-- RETOUR -->
+      <section class="year-navigation">
+        <a href="index.html" class="btn-secondary"> ← Retour aux projets </a>
+
+        <a href="projet-2.html" class="btn-primary"> Projet suivant → </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Maëlys Fomholtz — Portfolio</p>
+    </footer>
+  </body>
+</html>
