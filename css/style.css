@@ -656,3 +656,118 @@ body {
     align-items: flex-start;
   }
 }
+
+/* ==============================
+   PAGES DU PARCOURS
+============================== */
+
+.page-hero {
+  width: min(90%, var(--container-width));
+  margin: 0 auto;
+  padding: 100px 0 70px;
+}
+
+.page-hero h1 {
+  font-size: clamp(42px, 7vw, 76px);
+  line-height: 1.1;
+  margin: 20px 0;
+}
+
+.page-hero h1 span {
+  color: var(--green-accent);
+}
+
+.page-hero > p:not(.section-label) {
+  max-width: 650px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.year-tag {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 9px 16px;
+  color: var(--green-light);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  font-family: var(--font-code);
+  font-size: 13px;
+}
+
+.content-section {
+  width: min(90%, var(--container-width));
+  margin: 0 auto;
+  padding: 55px 0;
+}
+
+.text-content {
+  max-width: 850px;
+  color: var(--text-secondary);
+  line-height: 1.9;
+}
+
+.text-content p + p {
+  margin-top: 18px;
+}
+
+.card-number {
+  color: var(--green-accent);
+  font-family: var(--font-code);
+  font-size: 14px;
+}
+
+.project-category {
+  color: var(--green-accent);
+  font-family: var(--font-code);
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.year-navigation {
+  width: min(90%, var(--container-width));
+  margin: 30px auto 90px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn-secondary,
+.btn-primary {
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: var(--radius-small);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-secondary {
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.btn-primary {
+  color: #101411;
+  background: var(--green-accent);
+  font-weight: 600;
+}
+
+.btn-secondary:hover,
+.btn-primary:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+  .page-hero {
+    padding-top: 70px;
+  }
+
+  .year-navigation {
+    flex-direction: column;
+  }
+
+  .year-navigation a {
+    text-align: center;
+  }
+}
